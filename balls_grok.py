@@ -5,6 +5,7 @@ class Balls(Scene):
     def construct(self):
         ground_y = -2.5
         start_y = 2.5
+        start_x = -1
         r = 0.4    
 
         t = ValueTracker(0)
